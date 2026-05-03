@@ -40,7 +40,6 @@ body {
     width: 100%;
     max-width: 440px;
     height: 100vh;
-    padding: 20px;
     justify-content: center;
 }
 
@@ -155,7 +154,7 @@ button:hover {
     .form-section {
         flex: none;
         width: 100%;
-        padding: 20px;
+        padding: 16px;
     }
 
     .form-section h2 {
