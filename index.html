@@ -10,32 +10,55 @@
 </head>
 
 <body>
-
     <div class="container">
+
+        <div class="form-section">
+            <div class="form-container">
+                <h2>Adopt Your <br> 
+                    Favorite Animal</h2>
+
+                <form action="" class="form-input">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <div class="input-group">
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+                            </svg>
+                            <input id="username" type="text" name="username" placeholder="Enter your username">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="animal">Select Animal</label>
+                        <div class="input-group">
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M4 10c0-2 2-4 4-4s4 2 4 4-2 4-4 4-4-2-4-4zm10 0c0-2 2-4 4-4s4 2 4 4-2 4-4 4-4-2-4-4zM2 20c0-3 4-5 6-5s6 2 6 5v2H2v-2zm10 0c0-3 4-5 6-5s6 2 6 5v2h-12v-2z"/>
+                            </svg>
+                            <select id="animal" name="animal">
+                                <option value="">Choose a pet</option>
+                                <option>Cat</option>
+                                <option>Dog</option>
+                                <option>Rabbit</option>
+                                <option>Elephant</option>
+                            </select>
+                            <svg class="dropdown-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Why do you want to adopt?</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us why..."></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
 
         <div class="image-section">
             <img src="/Assets/Pet.png" alt="Lady with her dog pet">
-        </div>
-
-        <div class="form-section">
-            <h2>Adopt Your Favorite Animal</h2>
-
-            <form action="">
-                <input type="text" placeholder="Username">
-
-                <select name="" id="">
-                    <option value="">Select an Animal pet</option>
-                    <option value="">Cat</option>
-                    <option value="">Dog</option>
-                    <option value="">Rabbit</option>
-                    <option value="">Elephant</option>
-                </select>
-
-                <textarea rows="6" placeholder="Enter why you want to adopt the animal here..."></textarea>
-
-                <button type="submit">submit</button>
-
-            </form>
         </div>
     </div>
 </body>
