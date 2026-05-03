@@ -90,12 +90,13 @@ label {
     font-size: 16px;
     outline: none;
     -webkit-text-fill-color: #6c7075;
+    
 }
 
 textarea {
     border-radius: 8px;
     border: 1px solid #ddd;
-    font-size: 14px;
+    font-size: 16px;
     padding: 12px;
     -webkit-text-fill-color: #6c7075;
     outline: none;
@@ -159,5 +160,14 @@ button:hover {
 
     .form-section h2 {
         font-size: 24px;
+    }
+
+    .input-group input,
+    .input-group select {
+        outline: none;
+        -webkit-text-fill-color: #6c7075; 
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;  
     }
 }
