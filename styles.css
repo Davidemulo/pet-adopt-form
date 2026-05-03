@@ -61,7 +61,7 @@ form {
 }
 
 label {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #838b9a;
 }
@@ -87,7 +87,7 @@ label {
     padding: 12px 12px 12px 40px;
     border-radius: 8px;
     border: 1px solid #ddd;
-    font-size: 14px;
+    font-size: 16px;
     outline: none;
     -webkit-text-fill-color: #6c7075;
 }
